@@ -28,7 +28,7 @@ class Router
     {
         ob_start();
 
-        if(php_sapi_name() === "apache2handler" || php_sapi_name() === "fpm-fcgi")
+        if(php_sapi_name() === "apache2handler" || php_sapi_name() === "fpm-fcgi" || php_sapi_name() === 'Kitten PHP')
             $route = $_SERVER['REQUEST_URI'];
         elseif(isset($_REQUEST['route']))
             $route = isset($_REQUEST['route']);
