@@ -3,6 +3,9 @@
 Tiny router for tiny projects without MVC.
 Converts http://example.com/test to ./controllers/test.php
 
+### Deprecated
+#### The library was made quite a while ago and may be out of date. Please make a fork if you want to use it.
+
 # Installation
 
 You can install in using composer:
